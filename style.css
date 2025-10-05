@@ -1,0 +1,81 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+    padding: 10px;
+
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.2rem ;
+    text-transform: uppercase;
+}
+.topnav .search-container{
+    float: right;
+
+}
+form{
+    background-color: #151f30;
+    width: 300px;
+    height:43px;
+    border-radius:11px ;
+    display:flex;
+    align-items:center;
+}
+input{
+    all:unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail{
+    height:350px;
+    width: 300px;
+    border-radius: 19px;
+
+}
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* space between cards */
+    padding: 20px;
+}
+.column{
+    flex: 1 1 250px;
+        /* responsive width */
+    max-width: 300px;
+    display: flex;
+    float:left;
+    width:25%;
+    padding:10px 10px;
+
+}
+
+.card{
+    border-radius: 19px;
+    padding: 5px ;
+    text-align:center ;
+    flex: 1;
+    background-color: #151f30;
+    
+}
