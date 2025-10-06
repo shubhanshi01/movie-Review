@@ -47,7 +47,7 @@ function returnMovie(url, options) {
 
         const center = document.createElement("center");
 
-        title.innerHTML = `${element.title}`;
+        title.innerHTML = `${element.title}<br><a href="movies.html?id=${element.id}&title=${element.title}">reviews</a>`;
         image.src = Imglink + element.poster_path;
 
         center.appendChild(image);
